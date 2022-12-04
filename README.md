@@ -1,24 +1,22 @@
 # Hosting a Full-Stack Application
 
-### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**
+### **The project is part of udacity-fullstack nano-degree and need approvel from udacity to be used**
 
 ---
 
-In this project you will learn how to take a newly developed Full-Stack application built for a retailer and deploy it to a cloud service provider so that it is available to customers. You will use the aws console to start and configure the services the application needs such as a database to store product information and a web server allowing the site to be discovered by potential customers. You will modify your package.json scripts and replace hard coded secrets with environment variables in your code.
+this project was provided as a completed project and my task was to deploy the project and prepare it for deployment and being used.
 
-After the initial setup, you will learn to interact with the services you started on aws and will deploy manually the application a first time to it. As you get more familiar with the services and interact with them through a CLI, you will gradually understand all the moving parts.
+in this project i used AWS and its' services in order to finish the task, though a workflow. the workflow starts with making and admin account to control the poject and process. second, i needed to make a buscket and database using RDS and S3
 
-You will then register for a free account on CircleCi and connect your Github account to it. Based on the manual steps used to deploy the app, you will write a config.yml file that will make the process reproducible in CircleCi. You will set up the process to be executed automatically based when code is pushed on the main Github branch.
+After that, i need to use eb to upload, deploy the project. with modified package.json the web is deployed and ready to be used
 
-The project will also include writing documentation and runbooks covering the operations of the deployment process. Those runbooks will serve as a way to communicate with future developers and anybody involved in diagnosing outages of the Full-Stack application.
+Using CircleCi connected to repo of the project on github gave circleci the potential to track my changes during the work on the project
 
-# Udagram
+## To visit the web site [Site](http://hamza-udagram.s3-website-us-east-1.amazonaws.com) 
 
 This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
 
-
-
-### Dependencies
+## Dependencies
 
 ```
 - Node v14.15.1 (LTS) or more recent. While older versions can work it is advisable to keep node to latest LTS version
@@ -32,6 +30,24 @@ This application is provided to you as an alternative starter project if you do 
 - A S3 bucket for hosting uploaded pictures.
 
 ```
+
+### A way to start this project
+1- clone the project
+2- add env variables in .env file adding (
+
+| environment variable | describtion |
+| POSTGRES_USERNAME | username for database |   
+| POSTGRES_PASSWORD | password for database |
+| POSTGRES_HOST | link of the database |
+| POSTGRES_DB | name of the database |
+| AWS_REGION | AWS account region |
+| AWS_PROFILE | AWS Access key ID |
+| AWS_BUCKET | AWS bucket URL |
+| URL | Beanstalk ENV URL |
+| SECRET | Database SECRET |
+| DB_PORT | Port for DB |
+
+3- CI/CD process 
 
 ### Installation
 
