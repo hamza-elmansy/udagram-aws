@@ -9,6 +9,7 @@
 ![CI/CD project](../screenshots/ci.jpg)
 
 ### My pipline
+![CI/CD flow](../screenshots/ci-workflow.jpg)
 ``
 version: 2.1
 orbs:
