@@ -1,6 +1,9 @@
 set -x
 set -e
 
+mkdir /home/circleci/.aws
+touch /home/circleci/.aws/config
+chmod 600 /home/circleci/.aws/config
 AWS_CONFIG_FILE=$HOME/.aws/config
 
 echo "[profile eb-cli]"                              > $AWS_CONFIG_FILE
