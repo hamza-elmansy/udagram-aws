@@ -66,6 +66,7 @@ workflows:
     jobs:
       - build
       - hold:
+          context: aws
           filters:
             branches:
               only:
