@@ -1,3 +1,15 @@
+# CI/CD ?
+- The main concepts attributed to CI/CD are continuous integration, continuous delivery, and continuous deployment.
+
+### CI/CD explain
+(/../screenshots/cicd-explain.png)
+
+### CI/CD in the project
+- you just need to attach your project from your github then add the variables from the .env which you create and i already explained
+(/../screenshots/ci.jpg)
+
+### My pipline
+``
 version: 2.1
 orbs:
   # orgs contain basc recipes and reproducible actions (install node, aws, etc.)
@@ -76,3 +88,17 @@ workflows:
       - deploy:
           requires:
             - hold
+``
+
+### configure 
+1- Orbs
+2- Steps 
+``
+  # install node and checkout code
+  - node/install:
+      node-version: '14.15'
+  - checkout
+  - aws-cli/setup
+  - eb/setup
+``
+3- Deploy
