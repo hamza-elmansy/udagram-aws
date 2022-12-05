@@ -9,4 +9,4 @@
 
 ## Diagram for the poject
 
-[Flow](../screenshots/flow.jpg)
+![Flow](../screenshots/flow.jpg)

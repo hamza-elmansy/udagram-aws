@@ -2,11 +2,11 @@
 - The main concepts attributed to CI/CD are continuous integration, continuous delivery, and continuous deployment.
 
 ### CI/CD explain
-[CI/CD explain](../screenshots/cicd-explain.png)
+![CI/CD explain](../screenshots/cicd-explain.png)
 
 ### CI/CD in the project
 - you just need to attach your project from your github then add the variables from the .env which you create and i already explained
-[CI/CD project](../screenshots/ci.jpg)
+![CI/CD project](../screenshots/ci.jpg)
 
 ### My pipline
 ``
