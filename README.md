@@ -30,13 +30,13 @@ This application is provided to you as an alternative starter project if you do 
 ![RDS](./screenshots/RDS.jpg)
 
 #### Elastic Beanstack
-![EB](./screenshot/eb.jpg)
+![EB](./screenshots/eb.jpg)
 
 #### S3 (bucket)
-![S3](./screenshot/s3.jpg)
+![S3](./screenshots/s3.jpg)
 
 #### CI/CD
-![CI/CD](./screenshot/ci.jpg)
+![CI/CD](./screenshots/ci.jpg)
 
 ## License
 
