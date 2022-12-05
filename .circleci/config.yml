@@ -56,6 +56,10 @@ jobs:
       - aws-cli/setup
       - checkout
       - run:
+        name: Install AWS dependencies
+        command: |
+          sudo pip install awsebcli
+      - run:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
           command: |
