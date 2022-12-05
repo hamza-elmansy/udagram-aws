@@ -1,7 +1,8 @@
 ### A way to start this project
 1- clone the project
-2- add env variables in .env file adding (
-
+2- add env variables in .env file adding
+    
+| -------------------- | --------------- |
 | environment variable | describtion |
 | POSTGRES_USERNAME | username for database |   
 | POSTGRES_PASSWORD | password for database |

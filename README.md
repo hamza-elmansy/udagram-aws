@@ -14,22 +14,29 @@ Using CircleCi connected to repo of the project on github gave circleci the pote
 
 ## To visit the web site [Site](http://hamza-udagram.s3-website-us-east-1.amazonaws.com) 
 
+
 This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
+
+# Documentation: 
+1- [Infrastructure](./documentation/infrastructure.md)
+2- [Installation](./documentation/installation.md)
+3- [A way to start](./documentation/a-way-to-start.md)
+4- [Dependencies](./documentation/dependencies.md)
+5- [CI/CD](./documentation/cicd.md)
 
 ## Screenshots
 ---
 #### RDS(database)
-(/./screenshot/RDS.jpg)
-(/./screenshot/db.jpg)
+[RDS](./screenshots/RDS.jpg)
 
 #### Elastic Beanstack
-(/./screenshot/eb.jpg)
+[EB](./screenshot/eb.jpg)
 
 #### S3 (bucket)
-(/./screenshot/s3.jpg)
+[S3](./screenshot/s3.jpg)
 
 #### CI/CD
-(/./screenshot/ci.jpg)
+[CI/CD](./screenshot/ci.jpg)
 
 ## License
 
