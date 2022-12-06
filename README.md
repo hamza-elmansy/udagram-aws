@@ -36,7 +36,7 @@ This application is provided to you as an alternative starter project if you do 
 ![S3](./screenshots/s3.jpg)
 
 #### CI/CD
-![CI/CD](./screenshots/ci.jpg)
+![CI/CD](./screenshots/success-circleci.jpg)
 
 ## License
 
