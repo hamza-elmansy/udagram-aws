@@ -11,6 +11,4 @@ export AWS_DEFAULT_REGION=us-east-1
 export AWS_PROFILE=default
 export AWS_BUCKET=arn:aws:s3:::hamza-udagram
 export URL=http://udagram-api-dev.eba-iykrxarb.us-east-1.elasticbeanstalk.com/
-export AWS_ACCESS_KEY_ID=AKIAU7J3D37FP2HMYHQV
-export AWS_SECRET_ACCESS_KEY=9oLeFZqjTMIn4DHXM9jPIpwdGh+29BmtL5ABEKqZ
 export JWT_SECRET=yoursecretinawell
