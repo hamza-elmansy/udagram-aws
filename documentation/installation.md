@@ -40,3 +40,5 @@ Unit tests are using the Jasmine Framework.
 ### End to End Tests:
 
 The e2e tests are using Protractor and Jasmine.
+
+[How the project Works](./a-way-to-start.md)

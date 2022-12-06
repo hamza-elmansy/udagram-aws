@@ -1,6 +1,8 @@
 # CI/CD ?
 - The main concepts attributed to CI/CD are continuous integration, continuous delivery, and continuous deployment.
 
+![CI/CD Diagram](../screenshots/cicd-diagram.png)
+
 ### CI/CD explain
 ![CI/CD explain](../screenshots/cicd-explain.png)
 
@@ -8,9 +10,13 @@
 - you just need to attach your project from your github then add the variables from the .env which you create and i already explained
 ![CI/CD project](../screenshots/ci.jpg)
 
+- you need to add the environment variables to CircleCi:
+![Env Variables](../screenshots/vars.jpg)
+
 ### My pipline
-![CI/CD flow](../screenshots/ci-workflow.jpg)
-``
+![CI/CD flow](../screenshots/success-circleci.jpg)
+
+`
 version: 2.1
 orbs:
   # orgs contain basc recipes and reproducible actions (install node, aws, etc.)
@@ -89,17 +95,19 @@ workflows:
       - deploy:
           requires:
             - hold
-``
+`
+![pipeline](../screenshots/pipline_work.png)
 
 ### configure 
 1- Orbs
 2- Steps 
-``
+
+`
   # install node and checkout code
   - node/install:
       node-version: '14.15'
   - checkout
   - aws-cli/setup
   - eb/setup
-``
+`
 3- Deploy
